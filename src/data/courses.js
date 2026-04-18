@@ -1,0 +1,138 @@
+export const courses = [
+  {
+    id: 1,
+    title: "Violao para Iniciantes: Do Zero ao Primeiro Acorde",
+    instructor: "Rafael Mendes",
+    level: "Iniciante",
+    duration: 24,
+    lessons: 48,
+    price: 197.90,
+    originalPrice: 297.90,
+    description:
+      "Aprenda a tocar violao do absoluto zero. Este curso abrange postura correta, leitura de cifras, acordes basicos e ritmos essenciais para voce tocar suas primeiras musicas em poucas semanas.",
+    image:
+      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop",
+    rating: 4.9,
+    students: 3842,
+    category: "Violao",
+  },
+  {
+    id: 2,
+    title: "Piano Classico: Tecnica e Repertorio",
+    instructor: "Dra. Mariana Costa",
+    level: "Intermediario",
+    duration: 36,
+    lessons: 64,
+    price: 349.90,
+    originalPrice: 499.90,
+    description:
+      "Desenvolva sua tecnica pianistica com exercicios de Hanon, Czerny e estudo de obras de Bach, Mozart e Chopin. Ideal para quem ja domina o basico e quer evoluir como pianista.",
+    image:
+      "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=400&h=400&fit=crop",
+    rating: 4.8,
+    students: 2156,
+    category: "Piano",
+  },
+  {
+    id: 3,
+    title: "Bateria: Grooves e Viradas que Funcionam",
+    instructor: "Thiago Drummond",
+    level: "Iniciante",
+    duration: 18,
+    lessons: 36,
+    price: 179.90,
+    originalPrice: 249.90,
+    description:
+      "Domine os grooves mais usados no rock, pop, funk e samba. Aprenda viradas criativas, independencia de membros e como manter o tempo com solidez em qualquer estilo.",
+    image:
+      "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400&h=400&fit=crop",
+    rating: 4.7,
+    students: 1893,
+    category: "Bateria",
+  },
+  {
+    id: 4,
+    title: "Canto Popular Brasileiro: Encontre Sua Voz",
+    instructor: "Luciana Oliveira",
+    level: "Iniciante",
+    duration: 20,
+    lessons: 40,
+    price: 229.90,
+    originalPrice: 329.90,
+    description:
+      "Descubra o potencial da sua voz com tecnicas de respiracao, projecao e afinacao. Explore os estilos da MPB, bossa nova e sertanejo com exercicios praticos e repertorio brasileiro.",
+    image:
+      "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&h=400&fit=crop",
+    rating: 4.8,
+    students: 2734,
+    category: "Canto",
+  },
+  {
+    id: 5,
+    title: "Teoria Musical Completa: da Pauta ao Arranjo",
+    instructor: "Prof. Carlos Augusto",
+    level: "Intermediario",
+    duration: 30,
+    lessons: 55,
+    price: 279.90,
+    originalPrice: 399.90,
+    description:
+      "Entenda de verdade como a musica funciona. Este curso abrange leitura de partitura, intervalos, escalas, formacao de acordes, harmonia funcional e nocoes de arranjo e composicao.",
+    image:
+      "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=400&h=400&fit=crop",
+    rating: 4.6,
+    students: 1567,
+    category: "Teoria Musical",
+  },
+  {
+    id: 6,
+    title: "Producao Musical no Home Studio",
+    instructor: "DJ Marcelo Souza",
+    level: "Intermediario",
+    duration: 28,
+    lessons: 52,
+    price: 399.90,
+    originalPrice: 549.90,
+    description:
+      "Monte seu home studio e aprenda a gravar, editar e mixar suas producoes com qualidade profissional. Abordamos DAWs, plugins, tecnicas de microfonacao e masterizacao basica.",
+    image:
+      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&h=400&fit=crop",
+    rating: 4.7,
+    students: 2089,
+    category: "Producao Musical",
+  },
+  {
+    id: 7,
+    title: "Guitarra Avancada: Improvisacao e Solos",
+    instructor: "Fernando Vidal",
+    level: "Avancado",
+    duration: 32,
+    lessons: 58,
+    price: 349.90,
+    originalPrice: 479.90,
+    description:
+      "Leve sua guitarra ao proximo nivel com estudo de modos gregos, pentatonicas exoticas, sweep picking, tapping e construcao de solos melodicos. Inclui backing tracks exclusivas.",
+    image:
+      "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop",
+    rating: 4.9,
+    students: 1245,
+    category: "Violao",
+  },
+  {
+    id: 8,
+    title: "Piano Jazz e Bossa Nova",
+    instructor: "Andre Vasconcellos",
+    level: "Avancado",
+    duration: 26,
+    lessons: 44,
+    price: 379.90,
+    originalPrice: 499.90,
+    description:
+      "Explore a harmonia sofisticada do jazz e da bossa nova ao piano. Estude voicings, comping, walking bass na mao esquerda e improvisacao sobre standards classicos do genero.",
+    image:
+      "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=400&h=400&fit=crop",
+    rating: 4.8,
+    students: 987,
+    category: "Piano",
+  },
+];

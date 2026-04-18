@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-50: #fef7ee;
+  --color-brand-100: #fdedd3;
+  --color-brand-200: #f9d7a5;
+  --color-brand-300: #f5b96d;
+  --color-brand-400: #f09333;
+  --color-brand-500: #ec7a10;
+  --color-brand-600: #dd6008;
+  --color-brand-700: #b7480a;
+  --color-brand-800: #923910;
+  --color-brand-900: #763110;
+  --color-brand-950: #401606;
+
+  --color-surface-50: #fafafa;
+  --color-surface-100: #f4f4f5;
+  --color-surface-200: #e4e4e7;
+  --color-surface-300: #d4d4d8;
+  --color-surface-400: #a1a1aa;
+  --color-surface-500: #71717a;
+  --color-surface-600: #52525b;
+  --color-surface-700: #3f3f46;
+  --color-surface-800: #27272a;
+  --color-surface-900: #18181b;
+  --color-surface-950: #09090b;
+
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-50 text-surface-900 font-body antialiased transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-surface-950 text-surface-50;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
